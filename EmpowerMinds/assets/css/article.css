@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    appearance: 0;
+    list-style: none;
+    text-decoration: 0;
+}
+body {
+    /* background-image: url(/EmpowerMindsLogin/assets/images/background.jpg); */
+    background-color: #556db7;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    width: 100%;
+    /* color: var(--color-gray-900); */
+    font-family: 'Quicksand', sans-serif; 
+    z-index: 0;
+}
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    width: var(--container-width-lg);
+}
+section{
+    margin-top: 13rem;
+    width: 100vw;
+}
+.navbar{
+    padding-top: 20px;
+    width: 100%;
+    height: 70px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar a{
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* border: 2px solid black; */
+     
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.empower{
+    color: rgb(194, 197, 238);
+}
+.minds{
+    color: rgb(224, 163, 242);
+}
+.sprout {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -16px;
+    left: 257px;
+    border: transparent;
+    transform: translateX(-50%);
+}
+h3{
+    color: var(--color-white);
+    line-height: 1.3;
+    font-size: 1.1rem;
+    margin: 0.8rem 0 0.5rem;
+}
+a:hover{
+    color: rgb(233, 153, 233) ;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration : none;
+    
+}
+
+ul{
+    padding-right: 15px;
+    
+}
+button{
+    border: none;
+}
+.btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    padding: 8px 15px;
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #966da5;
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    color: white;
+}
+#home{
+    height: 350px;
+    text-align: start;
+    
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: #ebdfdf;
+  padding-left: 100px;
+  padding-top: 150px;
+  
+  
+}
+#three{
+    padding-top: 15px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #ebdfdf;
+    padding-left: 100px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+    padding-left: 100px;
+    height: 600%;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+ h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+   
+
+} 
+.social-links{
+    padding-top: 3px;
+}
+
+.one{
+    padding-left: 3.5px;
+}
+a li {
+    color: white;
+    text-transform: lowercase;
+    text-decoration:white underline;
+    font-size: large;
+}
+/* Medium screens */
+@media screen and (min-width: 768px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .logo {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    li a {
+        font-size: 20px;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 1024px) {
+    .navbar {
+        height: 95px;
+    }
+
+    .logo {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    li a {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+}
+.leaf{
+    font-size: 2px;
+    color: #4966b2;
+    text-decoration: none;
+}
+.leaf:hover{
+    color: #4966b2;
+}
+/* #read{
+    padding-left: 50px;
+    padding-top: 100px;
+} */
+/* .readbtn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    padding: 8px 15px;
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #966da5;
+    cursor: pointer;
+    align-items: center;
+} */
+
+/*-------------------------------------------posts---------------------------------------------*/
+:root {--color-primary: #6f6af8;
+    --color-primary-light: hsl(242, 91%, 69%, 18%);
+    --color-primary-variant: #5854c7;
+    --color-red: #da0f3f;
+    --color-red-light: hsl(346, 87%, 46%, 15%);
+    --color-green: #00c476;
+    --color-green-light: hsl(156, 100%, 38%, 15%);
+    --color-gray-900: #4b4b97;
+    --color-gray-700: #2d2b7c;
+    --color-gray-300: rgba(242, 242, 254, 0.3);
+    --color-gray-200: rgba(242, 242, 254, 0.7);
+    --color-white: #f2f2fe;
+    --color-bg: #0f0f3e;
+
+    --transition: all 300ms ease;
+
+    --container-width-lg: 74%;
+    --container-width-md: 88%;
+    --form-width: 40%;
+
+    --card-border-radius-1: 0.3rem;
+    --card-border-radius-2: 0.5rem;
+    --card-border-radius-3: 0.8rem;
+    --card-border-radius-4: 2rem;
+    --card-border-radius-5: 5rem;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+.post_thumbnail{
+    border-radius: var(--card-border-radius-5) 0;
+    border: 1rem solid #6262a7;
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+.post:hover .post_thumbnail img{
+    filter: saturate(0);
+    transition: filter 500ms ease;
+}
+
+/*---------------------------------------single posts---------------------------------------------*/
+.singlepost{
+    margin:  6rem 0 2 rem;
+    color: white;
+    font-size: large;
+}
+.singlepost_container{
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 3rem; 
+}
+.singlepost_thumbnail{
+    margin: 1.5rem 0 1rem;
+}
+.singlepost_container p{
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+input::placeholder {
+    color: white;
+}

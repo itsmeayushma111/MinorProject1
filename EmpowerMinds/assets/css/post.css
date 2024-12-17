@@ -1,0 +1,17 @@
+textarea{
+    width: 100%;
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 50px;
+}
+#post_button{
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+}

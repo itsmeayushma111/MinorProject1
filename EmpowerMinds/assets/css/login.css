@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* Login and register */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:rgb(146,160,250);
+    background-image:url("../images/background.jpg");
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box {
+    background: lavender;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.2);
+}
+.form-box {
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header {
+    font-size: 25px;
+    font-weight: 530;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #b2b3b7e4;
+    margin-bottom: 13px;
+}
+.form-box form .field {
+    display: flex;
+    margin-bottom: 12px;
+    flex-direction: column;
+
+}
+.form-box form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 2px solid #b2b3b7e4;
+    outline: none;
+}
+.btn {
+    height: 30px;
+    background: rgb(162, 169, 224);
+    border: 0;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover {
+    opacity: 0.65;
+}
+.submit {
+    width: 100%;
+}
+.option_field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border: 1px solid #33b063;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: red;
+}
+.field.input {
+    position: relative;
+}
+.field.input input {
+    padding-right: 30px;
+}
+#showPassword {
+    position: absolute;
+    top: 67%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+#showPassword:hover {
+    opacity: 0.8;
+}
+
+
